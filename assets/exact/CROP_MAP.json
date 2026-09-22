@@ -1,0 +1,79 @@
+{
+  "package": "RankedUP approved exact-image assets",
+  "reference": {
+    "path": "reference/RankedUP_Approved_Asset_Sheet.png",
+    "dimensions": { "width": 1448, "height": 1086 },
+    "sha256": "09da599b4d4df3f6d91730709d682fe96392b86c8ba5079d0ab25bbe6f3b271c"
+  },
+  "extraction": {
+    "method": "direct raster crop",
+    "resampling": "none",
+    "pixel_edits": "none"
+  },
+  "assets": [
+    {
+      "path": "png/light/RankedUP_Wordmark_Badge_Light_Exact.png",
+      "source_rect": { "x": 88, "y": 330, "width": 530, "height": 153 },
+      "surface": "light",
+      "purpose": "Ranked wordmark, UP badge, and approved taglines"
+    },
+    {
+      "path": "png/dark/RankedUP_Wordmark_Badge_Dark_Exact.png",
+      "source_rect": { "x": 800, "y": 330, "width": 515, "height": 153 },
+      "surface": "dark",
+      "purpose": "Pearl-white Ranked wordmark, UP badge, and approved taglines"
+    },
+    {
+      "path": "png/shared/RankedUP_Rankmark_Light_Exact.png",
+      "source_rect": { "x": 83, "y": 545, "width": 230, "height": 210 },
+      "surface": "light",
+      "purpose": "Standalone chrome rankmark"
+    },
+    {
+      "path": "png/shared/RankedUP_UP_Badge_Exact.png",
+      "source_rect": { "x": 447, "y": 595, "width": 180, "height": 170 },
+      "surface": "light",
+      "purpose": "Standalone UP badge with contained ember treatment"
+    },
+    {
+      "path": "png/light/RankedUP_Lockup_Horizontal_Exact.png",
+      "source_rect": { "x": 725, "y": 600, "width": 360, "height": 120 },
+      "surface": "light",
+      "purpose": "Approved horizontal lockup"
+    },
+    {
+      "path": "png/light/RankedUP_Lockup_Stacked_Exact.png",
+      "source_rect": { "x": 1110, "y": 552, "width": 305, "height": 205 },
+      "surface": "light",
+      "purpose": "Approved stacked lockup"
+    },
+    {
+      "path": "png/light/RankedUP_App_Icon_Light_Exact.png",
+      "source_rect": { "x": 157, "y": 820, "width": 138, "height": 138 },
+      "surface": "light",
+      "purpose": "Only approved Light app icon"
+    },
+    {
+      "path": "png/dark/RankedUP_App_Icon_Dark_Exact.png",
+      "source_rect": { "x": 307, "y": 820, "width": 138, "height": 138 },
+      "surface": "dark",
+      "purpose": "Only approved Dark app icon"
+    },
+    {
+      "path": "png/shared/RankedUP_Color_Palette_Exact.png",
+      "source_rect": { "x": 570, "y": 820, "width": 840, "height": 145 },
+      "surface": "light",
+      "purpose": "Approved seven-colour palette"
+    }
+  ],
+  "reference_crops": [
+    {
+      "path": "reference/RankedUP_Primary_Light_Panel_Reference.png",
+      "source_rect": { "x": 75, "y": 120, "width": 590, "height": 355 }
+    },
+    {
+      "path": "reference/RankedUP_Primary_Dark_Panel_Reference.png",
+      "source_rect": { "x": 770, "y": 120, "width": 590, "height": 355 }
+    }
+  ]
+}
